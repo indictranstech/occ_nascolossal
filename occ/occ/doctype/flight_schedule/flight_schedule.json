@@ -1,0 +1,160 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2022-07-04 15:33:03.210164",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "entry_type",
+  "iata_code",
+  "flight_nr",
+  "column_break_3",
+  "aircraft_type",
+  "flight_category",
+  "section_break_7",
+  "sch_start",
+  "column_break_9",
+  "sch_end",
+  "section_break_11",
+  "location_short_code",
+  "sta",
+  "column_break_14",
+  "loc_iata_code",
+  "std",
+  "amended_from"
+ ],
+ "fields": [
+  {
+   "fieldname": "iata_code",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Airline",
+   "options": "Manage Airlines",
+   "reqd": 1
+  },
+  {
+   "fieldname": "flight_nr",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Flight Nr",
+   "reqd": 1
+  },
+  {
+   "fieldname": "aircraft_type",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "AC Type",
+   "options": "Manage Aircrafts",
+   "reqd": 1
+  },
+  {
+   "fieldname": "flight_category",
+   "fieldtype": "Link",
+   "label": "Flight SVC",
+   "options": "Manage Flight Category",
+   "reqd": 1
+  },
+  {
+   "fieldname": "sch_start",
+   "fieldtype": "Date",
+   "label": "SCH Start",
+   "reqd": 1
+  },
+  {
+   "fieldname": "sch_end",
+   "fieldtype": "Date",
+   "label": "SCH End",
+   "reqd": 1
+  },
+  {
+   "fieldname": "location_short_code",
+   "fieldtype": "Link",
+   "label": "Origin",
+   "options": "Manage Locations",
+   "reqd": 1
+  },
+  {
+   "fieldname": "sta",
+   "fieldtype": "Time",
+   "label": "STA",
+   "reqd": 1
+  },
+  {
+   "fieldname": "loc_iata_code",
+   "fieldtype": "Link",
+   "label": "Destination",
+   "options": "Manage Locations",
+   "reqd": 1
+  },
+  {
+   "fieldname": "std",
+   "fieldtype": "Time",
+   "label": "STD",
+   "reqd": 1
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "Flight Schedule",
+   "print_hide": 1,
+   "read_only": 1
+  },
+  {
+   "fieldname": "column_break_3",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_7",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_9",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_11",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_14",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fetch_from": "flight_type.entry_type",
+   "fieldname": "entry_type",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "FLT Type",
+   "options": "Flight Type",
+   "reqd": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "is_submittable": 1,
+ "links": [],
+ "modified": "2022-07-19 14:37:54.573506",
+ "modified_by": "Administrator",
+ "module": "Occ",
+ "name": "Flight Schedule",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}

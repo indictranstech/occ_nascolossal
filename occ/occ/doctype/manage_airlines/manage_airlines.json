@@ -1,0 +1,78 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2022-07-04 09:21:26.183848",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "iata_code",
+  "airline_name",
+  "active",
+  "email_contact",
+  "amended_from"
+ ],
+ "fields": [
+  {
+   "fieldname": "iata_code",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "IATA Code",
+   "reqd": 1
+  },
+  {
+   "fieldname": "airline_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Airline Name",
+   "reqd": 1
+  },
+  {
+   "fieldname": "active",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Active",
+   "options": "Y\nN",
+   "reqd": 1
+  },
+  {
+   "fieldname": "email_contact",
+   "fieldtype": "Data",
+   "label": "Email Contact"
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "Manage Airlines",
+   "print_hide": 1,
+   "read_only": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "is_submittable": 1,
+ "links": [],
+ "modified": "2022-07-04 09:21:26.183848",
+ "modified_by": "Administrator",
+ "module": "Occ",
+ "name": "Manage Airlines",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}

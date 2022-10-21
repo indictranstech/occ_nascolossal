@@ -1,0 +1,107 @@
+{
+ "cards_label": "Settings",
+ "category": "Modules",
+ "charts": [],
+ "creation": "2022-07-03 14:33:33.143421",
+ "developer_mode_only": 0,
+ "disable_user_customization": 0,
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "extends_another_page": 0,
+ "hide_custom": 0,
+ "idx": 0,
+ "is_default": 0,
+ "is_standard": 1,
+ "label": "OCC",
+ "links": [
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Flight Type",
+   "link_to": "Flight Type",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Manage Aircraft Registration",
+   "link_to": "Manage Aircraft Registration",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Manage Aircrafts",
+   "link_to": "Manage Aircrafts",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Manage Airlines",
+   "link_to": "Manage Airlines",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Manage Branch",
+   "link_to": "Manage Branch",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Manage Flight Category",
+   "link_to": "Manage Flight Category",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Manage Locations",
+   "link_to": "Manage Locations",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Manage Stand or Gate",
+   "link_to": "Manage Stand or Gate",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  }
+ ],
+ "modified": "2022-07-04 15:48:42.386561",
+ "modified_by": "Administrator",
+ "module": "Occ",
+ "name": "OCC",
+ "owner": "Administrator",
+ "pin_to_bottom": 0,
+ "pin_to_top": 0,
+ "shortcuts": [
+  {
+   "doc_view": "List",
+   "label": "Flight Schedule",
+   "link_to": "Flight Schedule",
+   "restrict_to_domain": "",
+   "type": "DocType"
+  }
+ ],
+ "shortcuts_label": "OCC"
+}
